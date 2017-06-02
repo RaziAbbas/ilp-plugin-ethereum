@@ -1,0 +1,8 @@
+jobs:
+
+- name: deployLedger
+  job:
+    deploy:
+      contract: ledger.sol
+      instance: Ledger
+      amount: 10000
